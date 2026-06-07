@@ -1,85 +1,256 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tianfang Guo | Portfolio</title>
+  <title>Tianfang Guo</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+<div class="page">
 
-<nav class="navbar">
-  <div class="nav-content">
-    <a href="index.html" class="nav-logo">Tianfang Guo</a>
-    <div class="nav-links">
-      <a href=".\docs\tfg_resume_fa25.docx.pdf" target="_blank">Resume</a>
-      <a href="mailto:tiaguo@tamu.edu">Contact</a>
-    </div>
-  </div>
-</nav>
+  <!-- Header -->
+  <img class="photo" src="docs/assets/images/profile2.jpg" alt="Tianfang Guo">
+  <h1>Tianfang Guo</h1>
+  <p class="affil">
+    M.S. in Computer Engineering<br>
+    Texas A&amp;M University<br>
+    Computer Engineering Systems Group<br>
+    Advisor: Paul Gratz<br>
+    Email: <a href="mailto:tiaguo@tamu.edu">tiaguo@tamu.edu</a><br>
+    <a href="docs/tfg_resume_fa25.docx.pdf" target="_blank">Resume (PDF)</a>
+  </p>
+  <p class="nav">
+    [ <a href="#about">About</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#experience">Experience</a> |
+    <a href="#research">Research</a> |
+    <a href="#coursework">Coursework</a> ]
+  </p>
+  <br class="clear">
 
-<main class="main-container">
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Hi, I'm Tianfang Guo.</h1>
-      <p class="hero-subtitle">M.S. in Computer Engineering @ TAMU</p>
-      <p>I received my Bachelor's degree from UT Austin, where I studied Electrical and Computer Engineering with a focus on Computer Architecture and Embedded Systems.</p>
-      <p>My primary interest is computer architecture. I'm currently in the Computer Engineering Systems Group at TAMU, and my advisor is Paul Gratz.</p>
-      
-      <div style="margin-top: 1.5rem;">
-        <a href="mailto:tiaguo@tamu.edu" class="btn">Email Me</a>
-        <a href=".\docs\tfg_resume_fa25.docx.pdf" target="_blank" class="btn btn-secondary">View Resume</a>
-      </div>
-    </div>
-    <div class="hero-image">
-      <img src=".\docs\assets\images\profile2.jpg" alt="Tianfang Guo">
-    </div>
-  </section>
+  <!-- About -->
+  <h2 id="about">About</h2>
+  <p>Hi, I'm Tianfang Guo. I received my Bachelor's degree from UT Austin, where I
+  studied Electrical and Computer Engineering with a focus on Computer Architecture
+  and Embedded Systems.</p>
+  <p>My primary interest is computer architecture. I'm currently in the Computer
+  Engineering Systems Group at TAMU, and my advisor is Paul Gratz.</p>
 
-  <h3 class="section-title">About Me</h3>
-  <div class="grid-cards">
-    <a href=".\docs\internships.html" class="card">
-      <h4>Work Experience</h4>
-      <p>Explore my internships at Texas Instruments, Qualcomm, and Arm.</p>
-    </a>
-    <a href=".\docs\research.html" class="card">
-      <h4>Research Interests</h4>
-      <p>Read about my thoughts and directions regarding hardware prefetchers.</p>
-    </a>
-    <a href=".\docs\courses.html" class="card">
-      <h4>Coursework</h4>
-      <p>A comprehensive timeline of my academic journey and classes taken.</p>
-    </a>
-  </div>
+  <!-- Projects -->
+  <h2 id="projects">Projects</h2>
+  <ul>
+    <li><b>Neural Branch Predictor</b> &mdash; my semester project for a special topics
+    course taught on branch prediction.
+    (<a href="docs/689_final_report.pdf" target="_blank">report</a>)</li>
 
-  <h3 class="section-title">Featured Projects</h3>
-  <div class="grid-cards">
-    <a href=".\docs\689_final_report.pdf" target="_blank" class="card">
-      <h4>Neural Branch Predictor</h4>
-      <p>My semester project for a special topics course taught on branch prediction.</p>
-    </a>
-    <a href=".\docs\SD.html" class="card">
-      <h4>Computer Architecture Explorer</h4>
-      <p>My Senior Design Capstone Project completed under Prof. Mattan Erez.</p>
-    </a>
-    <a href=".\docs\445l.html" class="card">
-      <h4>Embedded Laser Tag System</h4>
-      <p>Placed 2nd in the Spring 2023 embedded systems competition.</p>
-    </a>
-    <a href=".\docs\hwArchML_project_final_report.pdf" target="_blank" class="card">
-      <h4>Sparse GeMM on FPGA</h4>
-      <p>Machine Learning Hardware Architecture project evaluating GeMM algorithms.</p>
-    </a>
-    <a href=".\docs\319k.html" class="card">
-      <h4>First Embedded Project</h4>
-      <p>A look back at where my embedded systems journey started.</p>
-    </a>
-  </div>
-</main>
+    <li><b>Computer Architecture Explorer</b> &mdash; my Senior Design Capstone Project
+    completed under Prof. Mattan Erez.
+    (<a href="docs/SD.html">details</a>)</li>
 
-<footer class="site-footer">
-  <p>&copy; 2026 Tianfang Guo. All rights reserved.</p>
-</footer>
+    <li><b>Embedded Laser Tag System</b> &mdash; placed 2nd in the Spring 2023 embedded
+    systems competition.
+    (<a href="docs/445l.html">details</a>)</li>
 
+    <li><b>Sparse GeMM on FPGA</b> &mdash; Machine Learning Hardware Architecture project
+    evaluating GeMM algorithms.
+    (<a href="docs/hwArchML_project_final_report.pdf" target="_blank">report</a>)</li>
+
+    <li><b>First Embedded Project</b> &mdash; a look back at where my embedded systems
+    journey started.
+    (<a href="docs/319k.html">details</a>)</li>
+  </ul>
+
+  <!-- Experience -->
+  <h2 id="experience">Experience</h2>
+  <p>I could write about all the technical details of my internships, but that's what my
+  <a href="docs/tfg_resume_fa25.docx.pdf" target="_blank">resume</a> is for. I think it's
+  more interesting to talk about other things I've learned during my time in the industry.</p>
+
+  <h3>Texas Instruments &mdash; First Internship</h3>
+  <p>My gig at Texas Instruments was my first ever internship. Thus, I was actually
+  woefully prepared for it. But as it turns out, not much is actually expected of a
+  college sophomore.</p>
+  <p>I learned a multitude of things that summer, not the least of which was that Dallas
+  people don't know how to drive. The true rigidness of a corporate job was also somewhat
+  gently instilled within me. I learned about deadlines, sprints, how badly internal
+  tools are documented; but perhaps most importantly, I learned how to survive this
+  jungle.</p>
+
+  <h3>Qualcomm &mdash; Second Internship</h3>
+  <p>Second times the charm; DV at Qualcomm! This was a big boy internship. I was ready
+  to get things done, network, and conquer the world. What I was actually met with was a
+  mostly empty office, a natural consequence of a 3 day WFH schedule. This desolation of
+  course doesn't speak to the technical rigor of the internship, but perhaps resulted in
+  me working with more independence than I would have liked.</p>
+  <p>Incidentally, this was also the summer I truly fell in love with Austin. I was at a
+  somewhat tumultuous time in my life, and with relatively more free time on hand compared
+  to during the semester, I turned to exploring the city, which kept me grounded.</p>
+
+  <h3>Arm &mdash; Upcoming</h3>
+  <p>I accepted a gig with Arm for this summer. Unbeknownst to me at the time, this is
+  located in San Diego. Therefore I shall soon make the pilgrimage to California, the
+  state of controversies. Perhaps I will remember to update this page afterwards, when I
+  need to find a real job.</p>
+
+  <!-- Research -->
+  <h2 id="research">Research Interests</h2>
+  <p>My research is in hardware prefetching and computer architecture. I am relatively
+  far away (although not so much so) from something of a completed manuscript for my
+  thesis, so here is a collection of thoughts that provide a general direction for my
+  intents.</p>
+
+  <p>A way to quantify prefetching is to compare existing hardware prefetchers to some
+  magical oracle prefetcher. You can do this by analyzing the specific prefetch streams
+  generated by said prefetchers. When you compare these streams, you can generally
+  separate them into four sets:</p>
+
+  <ul>
+    <li><b>Set 1:</b> Prefetches made by hardware prefetchers that aren't made by the
+    oracle. These aren't necessarily incorrect, but are deemed non-optimal by the oracle.</li>
+    <li><b>Set 2:</b> Prefetches made by both. These are simply optimal prefetches and
+    aren't very interesting.</li>
+    <li><b>Set 3:</b> Prefetches made by the oracle that are theoretically possible for a
+    hardware prefetcher to make. We just haven't designed one good enough to make them yet.</li>
+    <li><b>Set 4:</b> Prefetches made by the oracle that are impossible for a hardware
+    prefetcher to make. Likely because the oracle uses future information to make these,
+    which is impossible because Intel doesn't know how to build a time machine.</li>
+  </ul>
+
+  <p>It is easy to separate Sets 1, 2, and 3+4, but it's much harder to separate Set 3
+  from Set 4, which is the set we really care about, since Set 3 contains hard-to-make
+  prefetches that can guide future prefetcher design.</p>
+
+  <p>The first-order concern is to actually create motivation to do this research. That
+  is, is Set 3+4 actually large enough to justify putting effort into discovering its
+  contents? There are multiple ways to do this, none of which seem (at least to me)
+  particularly more correct than the others. The main point here is to quantify the
+  difference between oracle streams and other prefetcher streams.</p>
+
+  <p>One way to do this is via compression, as a proxy for finding the Kolmogorov
+  complexity of the streams. If you can compress a file well, it means there is less
+  entropy in the file. I should add that the point of needing to calculate the
+  entropy/k-complexity is that if a stream has a high amount of entropy, then it is
+  naturally unpredictable. If the oracle stream had high entropy, it would mean the
+  oracle is making seemingly random or unpredictable decisions on what to prefetch using
+  its prescient information. However, according to my data so far, this is not the
+  case&mdash;the oracle stream generally has one of the lower entropies across many
+  benchmarks. This means the oracle is actually making relatively more patterned
+  decisions than existing prefetchers. I am currently at this stage, which is to say
+  mainly data collection and analysis.</p>
+
+  <p>Next comes the much harder part of actually separating Set 3 from Set 4. Again,
+  there are multiple ways to do this:</p>
+
+  <ul>
+    <li><b>Train an ML model:</b> The rationale being that if the model can generate the
+    prefetch, then it probably belongs in Set 3.</li>
+    <li><b>Create a compile-time dependency flow graph:</b> You can somehow see if you
+    ever get enough information in the form of instructions soon enough to make an
+    accurate prefetch.</li>
+    <li><b>Vector projection (my personal idea):</b> Project each stream as vectors onto
+    some N-dimensional space, and then simply do vector arithmetic on those vectors. We
+    can get the partial vectors that represent the difference between them, and that lets
+    us separate the sets too.</li>
+  </ul>
+
+  <p>Ultimately, I suspect what's going to happen is some combination of multiple of
+  these methods (conservatively) acting as filters that generates some subset of Set 3.</p>
+
+  <!-- Coursework -->
+  <h2 id="coursework">Coursework</h2>
+
+  <h3>Spring 2026</h3>
+  <table class="courses">
+    <tr><td>Advanced Computer Architecture</td><td>Prof. Paul Gratz</td></tr>
+    <tr><td>Special Topics on Branch Prediction</td><td>Prof. Daniel Jimenez</td></tr>
+  </table>
+
+  <h3>Fall 2025</h3>
+  <table class="courses">
+    <tr><td>Parallel Computing</td><td>Dr. Vivek Sarin</td></tr>
+    <tr><td>Intro to Hardware DV</td><td>Dr. David Kebo Houngninou</td></tr>
+    <tr><td>Deep Learning and LLMs</td><td>Dr. Tomer Joseph Galanti</td></tr>
+  </table>
+
+  <h3>Spring 2025</h3>
+  <table class="courses">
+    <tr><td>Hardware Architecture for Machine Learning</td><td>Dr. Lizy John</td></tr>
+    <tr><td>Requirements Engineering</td><td>Dr. Suzanne Barber</td></tr>
+    <tr><td>UT SEEK</td><td></td></tr>
+  </table>
+
+  <h3>Fall 2024</h3>
+  <table class="courses">
+    <tr><td>Operating Systems</td><td>Dr. Ramesh Yeraballi</td></tr>
+    <tr><td>Digital System Design w/ HDL</td><td>Dr. Lizy John</td></tr>
+    <tr><td>UT SEEK</td><td></td></tr>
+  </table>
+
+  <h3>Spring 2024</h3>
+  <table class="courses">
+    <tr><td>Compilers</td><td>Dr. Mattan Erez</td></tr>
+    <tr><td>Algorithms</td><td>Dr. Pedro Santacruz</td></tr>
+    <tr><td>Honors Senior Design II</td><td>Dr. Frank Register</td></tr>
+    <tr><td>UT SEEK</td><td></td></tr>
+  </table>
+
+  <h3>Fall 2023</h3>
+  <table class="courses">
+    <tr><td>Computer Architecture</td><td>Dr. Mattan Erez</td></tr>
+    <tr><td>Digital Logic Design</td><td>Dr. Nur Touba</td></tr>
+    <tr><td>Honors Senior Design I</td><td>Dr. Frank Register</td></tr>
+    <tr><td>Public Communication of Science and Technology</td><td>Online</td></tr>
+  </table>
+
+  <h3>Spring 2023</h3>
+  <table class="courses">
+    <tr><td>Probabilities and Random Processes</td><td>Dr. Gustavo de Veciana</td></tr>
+    <tr><td>Engineering Communications</td><td>Dr. Bill Fagelson</td></tr>
+    <tr><td>Embedded Systems Design Lab</td><td>Dr. Jon Valvano</td></tr>
+    <tr><td>True Crime Podcasts</td><td>Dr. Robert Quigley</td></tr>
+    <tr><td>Federal Government</td><td>Online</td></tr>
+  </table>
+
+  <h3>Fall 2022</h3>
+  <table class="courses">
+    <tr><td>Software Implementation I</td><td>Dr. Valleth Nandakumar</td></tr>
+    <tr><td>Linear Systems and Signals</td><td>Dr. Jon Tamir</td></tr>
+    <tr><td>Linear Algebra</td><td>Dr. Arie Israel</td></tr>
+    <tr><td>Gems and Minerals</td><td>Dr. Elizabeth Catlos</td></tr>
+    <tr><td>World Literature</td><td>Online</td></tr>
+  </table>
+
+  <h3>Spring 2022</h3>
+  <table class="courses">
+    <tr><td>Intro to Embedded Systems</td><td>Dr. Lucas Holt</td></tr>
+    <tr><td>Circuit Theory</td><td>Dr. Earl Schwarzlander</td></tr>
+    <tr><td>Differential Equations</td><td>Dr. Charles Mills</td></tr>
+    <tr><td>Intro to Classical Methology</td><td>Online</td></tr>
+  </table>
+
+  <h3>Fall 2021</h3>
+  <table class="courses">
+    <tr><td>Intro to Electrical Engineering</td><td>Dr. Edward Yu</td></tr>
+    <tr><td>Intro to Computing</td><td>Dr. Yale Patt</td></tr>
+    <tr><td>Calculus</td><td>Dr. Theresa Martines</td></tr>
+    <tr><td>American Musicals</td><td>Dr. Hannah Lewis</td></tr>
+  </table>
+
+  <h3>2019-2020 (at LSC)</h3>
+  <table class="courses">
+    <tr><td>Federal Government</td><td></td></tr>
+    <tr><td>Macroeconomics</td><td></td></tr>
+    <tr><td>US History</td><td></td></tr>
+    <tr><td>Intro to Computers</td><td></td></tr>
+    <tr><td>Physics</td><td></td></tr>
+    <tr><td>Calculus</td><td></td></tr>
+    <tr><td>Composition/Rhetoric</td><td></td></tr>
+  </table>
+
+  <hr>
+  <p class="footer">&copy; 2026 Tianfang Guo. All rights reserved.</p>
+
+</div>
 </body>
 </html>
